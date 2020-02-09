@@ -14,5 +14,9 @@ class Course
   def self.all
     @@all
   end   
+  
+  def slef.reset_all
+    @@all.clear
+  end 
 
 end 
